@@ -1,0 +1,147 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F4F4;
+    justify-content: space-evenly;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+ul li a:hover {
+    color: #007BFF;
+    transform: scale(1.05);
+}
+
+.fa-circle-user, .fa-angle-down, .fa-house-chimney {
+    padding-left: 8px;
+}
+
+p, h3 {
+    margin-top: 9px;
+}
+
+img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-image: url('https://s1.best-wallpaper.net/wallpaper/m/2004/Sea-palm-leaves-plants-beach-tropical_m.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    border-radius: 15px;
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+#a {
+    background-color: #6B7C96;
+}
+
+#b {
+    background-color: #DFBB52;
+}
+
+#c, #d {
+    background-color: #C592AF;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.one, .two, .three, .four {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 220px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+.sign-in-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-form label {
+    margin-bottom: 5px;
+}
+
+.sign-in-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sign-in-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sign-in-form button:hover {
+    background-color: #0056b3;
+}
+
+.sign-in-container p {
+    text-align: center;
+    margin-top: 20px;
+}
